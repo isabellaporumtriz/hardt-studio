@@ -28,7 +28,7 @@ const stats = [
     description: "Em alcance e presença digital dos clientes.",
   },
   {
-    value: 98,
+    value: 100,
     prefix: "",
     suffix: "%",
     title: "Clientes satisfeitos",
