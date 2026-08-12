@@ -108,7 +108,7 @@ export default function PhoneMockup() {
           width={900}
           height={900}
           priority
-          className="h-auto w-[92vw] max-w-[460px] select-none object-contain drop-shadow-[0_40px_90px_rgba(0,0,0,0.55)] sm:w-[560px] sm:max-w-none lg:w-[720px]"
+          className="h-auto w-[650px] max-w-none select-none object-contain drop-shadow-[0_40px_90px_rgba(0,0,0,0.55)] lg:w-[720px]"
         />
       </motion.div>
     </motion.div>

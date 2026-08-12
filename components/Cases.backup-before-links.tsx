@@ -6,34 +6,31 @@ import StaggerReveal, { StaggerItem } from "./StaggerReveal";
 
 const cases = [
   {
-    category: "Landing Page · Estética",
-    title: "Mônica Souza",
+    category: "Landing Page · Estratégia",
+    title: "Hardt.api",
     description:
-      "Experiência digital desenvolvida para transmitir sofisticação, confiança e autoridade, valorizando o posicionamento da profissional e facilitando a jornada até o agendamento.",
-    result: "Mais autoridade e percepção de valor",
-    gradient: "from-[#2c3023] via-[#73633d] to-[#11130d]",
-    mockup: "MS",
-    href: "https://monica-souza-lp.vercel.app/",
+      "Página de vendas desenvolvida para apresentar o serviço de disparos via API Oficial do WhatsApp com clareza, autoridade e foco em conversão.",
+    result: "Posicionamento mais profissional",
+    gradient: "from-[#14062d] via-[#33107a] to-[#07070d]",
+    mockup: "API",
   },
   {
     category: "Landing Page · Arquitetura",
-    title: "MADEH Arquitetura",
+    title: "Madeh Arquitetura",
     description:
-      "Uma presença digital sofisticada para traduzir a identidade do escritório, valorizar seus projetos e criar uma experiência coerente com o público de alto padrão.",
-    result: "Posicionamento digital mais premium",
+      "Experiência digital sofisticada para valorizar projetos arquitetônicos, transmitir exclusividade e atrair clientes de alto padrão.",
+    result: "Percepção premium da marca",
     gradient: "from-[#271d18] via-[#756255] to-[#15110f]",
     mockup: "MADEH",
-    href: "https://madeh-estudio.vercel.app/",
   },
   {
-    category: "Site · Instrumentos Musicais",
-    title: "Imperial Instrumentos",
+    category: "Landing Page · Automotivo",
+    title: "JD Motors",
     description:
-      "Experiência digital criada para apresentar produtos com mais clareza, fortalecer a marca e tornar a jornada do cliente mais profissional do primeiro contato à decisão.",
-    result: "Experiência de marca mais profissional",
-    gradient: "from-[#171717] via-[#40372b] to-[#080808]",
-    mockup: "IMP",
-    href: "https://imperial-instrumentos.vercel.app/",
+      "Vitrine digital criada para apresentar veículos, facilitar o contato comercial e reforçar segurança durante a decisão de compra.",
+    result: "Jornada comercial mais clara",
+    gradient: "from-[#16181d] via-[#343943] to-[#090a0c]",
+    mockup: "JD",
   },
 ];
 
@@ -120,9 +117,7 @@ export default function Cases() {
               </p>
 
               <motion.a
-                href="https://api.whatsapp.com/send/?phone=5537958264023&text=Oiii%21%20Quero%20ver%20a%20pr%C3%A9via%20da%20landing%20page%20que%20a%20Hardt%20preparou%20para%20o%20meu%20neg%C3%B3cio%20e%20quero%20entender%20melhor%20como%20funciona%20para%20colocar%20esse%20projeto%20no%20ar.&type=phone_number&app_absent=0"
-                target="_blank"
-                rel="noreferrer"
+                href="#contato"
                 className="group inline-flex items-center gap-2 rounded-full border border-violet-300 bg-white px-5 py-3 text-sm font-bold text-violet-600"
                 whileHover={{
                   y: -3,
@@ -152,12 +147,8 @@ export default function Cases() {
         <StaggerReveal className="mt-14 grid gap-6 lg:grid-cols-3">
           {cases.map((project, index) => (
             <StaggerItem key={project.title} className="h-full">
-              <motion.a
-                href={project.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={`Abrir projeto ${project.title}`}
-                className="group relative block min-h-[520px] cursor-pointer overflow-hidden rounded-[30px] border border-black/[0.06] bg-[#09090f] shadow-[0_24px_70px_rgba(30,15,70,0.12)]"
+              <motion.article
+                className="group relative min-h-[520px] overflow-hidden rounded-[30px] border border-black/[0.06] bg-[#09090f] shadow-[0_24px_70px_rgba(30,15,70,0.12)]"
                 initial={{
                   opacity: 0,
                   y: 45,
@@ -280,6 +271,10 @@ export default function Cases() {
                     {project.category}
                   </span>
 
+                  <h3 className="mt-3 text-2xl font-black tracking-[-0.03em]">
+                    {project.title}
+                  </h3>
+
                   <p className="mt-3 text-sm leading-6 text-white/55">
                     {project.description}
                   </p>
@@ -315,7 +310,7 @@ export default function Cases() {
                 </div>
 
                 <div className="absolute bottom-0 left-0 h-[3px] w-0 bg-gradient-to-r from-violet-500 to-fuchsia-500 transition-all duration-700 group-hover:w-full" />
-              </motion.a>
+              </motion.article>
             </StaggerItem>
           ))}
         </StaggerReveal>

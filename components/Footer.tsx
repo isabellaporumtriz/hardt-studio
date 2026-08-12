@@ -28,7 +28,7 @@ const socialLinks = [
   },
   {
     label: "WhatsApp",
-    href: "https://wa.me/5512991699481",
+    href: "https://api.whatsapp.com/send/?phone=5537958264023&text=Oiii%21%20Quero%20ver%20a%20pr%C3%A9via%20da%20landing%20page%20que%20a%20Hardt%20preparou%20para%20o%20meu%20neg%C3%B3cio%20e%20quero%20entender%20melhor%20como%20funciona%20para%20colocar%20esse%20projeto%20no%20ar.&type=phone_number&app_absent=0",
   },
 ];
 
@@ -317,7 +317,7 @@ export default function Footer() {
                 </motion.a>
 
                 <motion.a
-                  href="https://wa.me/5512999999999"
+                  href="https://api.whatsapp.com/send/?phone=5537958264023&text=Oiii%21%20Quero%20ver%20a%20pr%C3%A9via%20da%20landing%20page%20que%20a%20Hardt%20preparou%20para%20o%20meu%20neg%C3%B3cio%20e%20quero%20entender%20melhor%20como%20funciona%20para%20colocar%20esse%20projeto%20no%20ar.&type=phone_number&app_absent=0"
                   target="_blank"
                   rel="noreferrer"
                   className="group w-fit"

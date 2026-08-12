@@ -74,7 +74,9 @@ export default function Hero() {
             >
               <StaggerItem>
                 <a
-                  href="#contato"
+                  href="https://api.whatsapp.com/send/?phone=5537958264023&text=Oiii%21%20Quero%20ver%20a%20pr%C3%A9via%20da%20landing%20page%20que%20a%20Hardt%20preparou%20para%20o%20meu%20neg%C3%B3cio%20e%20quero%20entender%20melhor%20como%20funciona%20para%20colocar%20esse%20projeto%20no%20ar.&type=phone_number&app_absent=0"
+                  target="_blank"
+                  rel="noreferrer"
                   className="group flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-violet-600 to-purple-500 px-7 py-4 text-sm font-bold text-white shadow-[0_0_35px_rgba(124,58,237,0.3)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_0_50px_rgba(124,58,237,0.5)]"
                 >
                   Quero acelerar minha marca

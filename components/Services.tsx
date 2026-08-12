@@ -243,7 +243,9 @@ export default function Services() {
         <Reveal delay={0.2}>
           <div className="mt-10 flex justify-center">
             <a
-              href="#contato"
+              href="https://api.whatsapp.com/send/?phone=5537958264023&text=Oiii%21%20Quero%20ver%20a%20pr%C3%A9via%20da%20landing%20page%20que%20a%20Hardt%20preparou%20para%20o%20meu%20neg%C3%B3cio%20e%20quero%20entender%20melhor%20como%20funciona%20para%20colocar%20esse%20projeto%20no%20ar.&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noreferrer"
               className="group inline-flex items-center gap-2 rounded-full border border-violet-300 bg-white px-6 py-3.5 text-sm font-bold text-violet-600 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-violet-500 hover:bg-violet-600 hover:text-white"
             >
               Conhecer todos os serviços

@@ -120,9 +120,7 @@ export default function Cases() {
               </p>
 
               <motion.a
-                href="https://api.whatsapp.com/send/?phone=5537958264023&text=Oiii%21%20Quero%20ver%20a%20pr%C3%A9via%20da%20landing%20page%20que%20a%20Hardt%20preparou%20para%20o%20meu%20neg%C3%B3cio%20e%20quero%20entender%20melhor%20como%20funciona%20para%20colocar%20esse%20projeto%20no%20ar.&type=phone_number&app_absent=0"
-                target="_blank"
-                rel="noreferrer"
+                href="#contato"
                 className="group inline-flex items-center gap-2 rounded-full border border-violet-300 bg-white px-5 py-3 text-sm font-bold text-violet-600"
                 whileHover={{
                   y: -3,
@@ -279,6 +277,10 @@ export default function Cases() {
                   <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-violet-300">
                     {project.category}
                   </span>
+
+                  <h3 className="mt-3 text-2xl font-black tracking-[-0.03em]">
+                    {project.title}
+                  </h3>
 
                   <p className="mt-3 text-sm leading-6 text-white/55">
                     {project.description}
