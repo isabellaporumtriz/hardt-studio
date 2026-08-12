@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
     },
 
-    sitemap: "https://seudominio.com/sitemap.xml",
+    sitemap: "https://hardt-studio.vercel.app/sitemap.xml",
   };
 }
